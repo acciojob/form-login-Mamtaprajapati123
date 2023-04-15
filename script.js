@@ -1,5 +1,6 @@
+// script.js file
 function getFormvalue() {
-  var firstName = document.getElementById("fname").value;
-  var lastName = document.getElementById("lname").value;
-  alert("First Name: " + firstName + "\nLast Name: " + lastName);
+  const fname = document.getElementById("fname").value;
+  const lname = document.getElementById("lname").value;
+  alert("First name: " + fname + "\nLast name: " + lname);
 }
